@@ -87,13 +87,13 @@ class HomeBaseController extends AppframeController {
 
         $options = $this->site_options;
         //微信的推广二维码地址 state为用户的uid
-        $weixin_url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $options['site_AppId'] . "&redirect_uri=http://yixin.woyii.com/openid.php&response_type=code&scope=snsapi_base&state=".$myself_id."#wechat_redirect";
+        $weixin_url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $options['site_AppId'] . "&redirect_uri=http://www.exhuali.com/openid.php&response_type=code&scope=snsapi_base&state=".$myself_id."#wechat_redirect";
         $jssdk = new \Org\Util\Jssdk($options['site_AppId'], $options['site_AppSecret']);
         $signPackage = $jssdk->GetSignPackage();
         $this->assign("weixin_url",$weixin_url);
         //show_bug($signPackage);exit();
         //直接扫描用户的二维码注册时，直接到注册页面
-        $weixin_url_reg = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $options['site_AppId'] . "&redirect_uri=http://yixin.woyii.com/openid.php&response_type=code&scope=snsapi_base&state=reg".$myself_id."#wechat_redirect";
+        $weixin_url_reg = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" . $options['site_AppId'] . "&redirect_uri=http://www.exhuali.com/openid.php&response_type=code&scope=snsapi_base&state=reg".$myself_id."#wechat_redirect";
         $this->assign("weixin_url_reg",$weixin_url_reg);
         
         $this->assign('signPackage1', $signPackage);

@@ -122,9 +122,6 @@ class IndexController extends HomeBaseController {
     }
     //登录页面
     function login(){
-
-
-
         $this->display();
     }
 
@@ -541,6 +538,11 @@ class IndexController extends HomeBaseController {
     }
     //经纪人-我的名片
     public function mycard(){
+        //获取session中用户id
+        $user_id=session("member_user_id");
+        //查询用户数据
+        $user=M("member_user")->find($user_id);
+        $this->disarray($user);
         $this->display();
     }
     //经纪人-分享
