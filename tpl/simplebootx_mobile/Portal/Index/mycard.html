@@ -14,7 +14,8 @@
 		<h1>我的名片</h1>
 	</div>
 	<div style="position: fixed;">
-		<img src="__PUBLIC__/image/card.png">
+		<img width="100%" src="__ROOT__/phpqrcode.php?showtext=<php>echo rawurlencode($weixin_url_reg)</php>" id="mark">
 	</div>
+	<tc_include file="Public/share"/>
 </body>
 </html>
