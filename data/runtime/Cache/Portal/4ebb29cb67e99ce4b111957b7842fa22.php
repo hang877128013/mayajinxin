@@ -12,11 +12,11 @@
 <meta content="telephone=no" name="format-detection"/>
 <meta name="format-detection" content="email=no"/>
 <title>玛雅金信----微交易</title>
-<link rel="stylesheet" href="/shares/tpl/simplebootx_mobile/Public/style/change_pwd.css" type="text/css">
-<link rel="stylesheet" href="/shares/tpl/simplebootx_mobile/Public/style/common.css" type="text/css">
-<link rel="stylesheet" href="/shares/tpl/simplebootx_mobile/Public/style/index.css" type="text/css">
-<link rel="stylesheet" href="/shares/tpl/simplebootx_mobile/Public/style/popup.css" type="text/css">
-<script type="text/javascript" src="/shares/tpl/simplebootx_mobile/Public/js/js.js"></script>
+<link rel="stylesheet" href="/mayajinxin/shares/tpl/simplebootx_mobile/Public/style/change_pwd.css" type="text/css">
+<link rel="stylesheet" href="/mayajinxin/shares/tpl/simplebootx_mobile/Public/style/common.css" type="text/css">
+<link rel="stylesheet" href="/mayajinxin/shares/tpl/simplebootx_mobile/Public/style/index.css" type="text/css">
+<link rel="stylesheet" href="/mayajinxin/shares/tpl/simplebootx_mobile/Public/style/popup.css" type="text/css">
+<script type="text/javascript" src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/js/js.js"></script>
 
 	<style>
 		#head{width:70px;height:70px;}
@@ -33,7 +33,7 @@
 		<div class="logo_info_top">
 			<span><?php echo ($userInfo["nickname"]); ?></span>
 			<span class="member">
-						会员等级:<span class="level">白银</span><img src="/shares/tpl/simplebootx_mobile/Public/image/star.png" alt=""><img src="/shares/tpl/simplebootx_mobile/Public/image/star.png" alt="">
+						<!--会员等级:<span class="level">白银</span><img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/star.png" alt=""><img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/star.png" alt="">-->
 					</span>
 			<span class="property">资产:<span class="money"><?php echo ($userInfo['money']); ?>元</span></span>
 		</div>
@@ -49,12 +49,12 @@
 			<div class="gold_info">
 				<span>黄 金 </span>
 				<span>4423 </span>
-				<img src="/shares/tpl/simplebootx_mobile/Public/image/arrow_active.png" alt="">
+				<img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/arrow_active.png" alt="">
 			</div>
 			<div class="sliver_info">
 				<span>白 银 </span>
 				<span>3422 </span>
-				<img src="/shares/tpl/simplebootx_mobile/Public/image/arrow_default.png" alt="">
+				<img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/arrow_default.png" alt="">
 			</div>
 		</div>
 		<div class="diagram">
@@ -74,16 +74,16 @@
 <div id="footer">
 	<div class="up_down">
 			<span class="up">
-				<img src="/shares/tpl/simplebootx_mobile/Public/image/up.png" alt="">
+				<img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/up.png" alt="">
 			</span>
 		<span class="down">
-				<img src="/shares/tpl/simplebootx_mobile/Public/image/down.png" alt="">
+				<img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/down.png" alt="">
 			</span>
 		<p>注意：交易时间为周一~周五08:00-次日04：00，每日04：00-07：00休市结算!</p>
 	</div>
 	<div class="hr"></div>
 	<ul class="ul">
-		<li class="trade"><a href="<?php echo U('Index/index');?>"><img src="/shares/tpl/simplebootx_mobile/Public/image/trade.png" alt=""><p>微交易</p></a></li><li class="agent"><a href="<?php echo U('Index/agent');?>"><img src="/shares/tpl/simplebootx_mobile/Public/image/agent.png" alt=""><p>经纪人</p></a></li><li class="personal"><a href="<?php echo U('Index/mycenter');?>"><img src="/shares/tpl/simplebootx_mobile/Public/image/personal.png" alt=""><p>个人中心</p></a></li>
+		<li class="trade"><a href="<?php echo U('Index/index');?>"><img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/trade.png" alt=""><p>微交易</p></a></li><li class="agent"><a href="<?php echo U('Index/agent');?>"><img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/agent.png" alt=""><p>经纪人</p></a></li><li class="personal"><a href="<?php echo U('Index/mycenter');?>"><img src="/mayajinxin/shares/tpl/simplebootx_mobile/Public/image/personal.png" alt=""><p>个人中心</p></a></li>
 	</ul>
 </div>
 </body>

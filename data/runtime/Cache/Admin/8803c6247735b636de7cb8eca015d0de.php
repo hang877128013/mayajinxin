@@ -12,10 +12,10 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
 
-	<link href="/shares/statics/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
-    <link href="/shares/statics/simpleboot/css/simplebootadmin.css" rel="stylesheet">
-    <link href="/shares/statics/js/artDialog/skins/default.css" rel="stylesheet" />
-    <link href="/shares/statics/simpleboot/font-awesome/4.2.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+	<link href="/mayajinxin/shares/statics/simpleboot/themes/<?php echo C('SP_ADMIN_STYLE');?>/theme.min.css" rel="stylesheet">
+    <link href="/mayajinxin/shares/statics/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+    <link href="/mayajinxin/shares/statics/js/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="/mayajinxin/shares/statics/simpleboot/font-awesome/4.2.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
     <style>
 		.length_3{width: 180px;}
 		form .input-order{margin-bottom: 0px;padding:3px;width:40px;}
@@ -24,12 +24,12 @@
 
 	</style>
 	<!--[if IE 7]>
-	<link rel="stylesheet" href="/shares/statics/simpleboot/font-awesome/4.2.0/css/font-awesome-ie7.min.css">
+	<link rel="stylesheet" href="/mayajinxin/shares/statics/simpleboot/font-awesome/4.2.0/css/font-awesome-ie7.min.css">
 	<![endif]-->
 <script type="text/javascript">
 //全局变量
 var GV = {
-    DIMAUB: "/shares/",
+    DIMAUB: "/mayajinxin/shares/",
     JS_ROOT: "statics/js/",
     TOKEN: ""
 };
@@ -37,9 +37,9 @@ var GV = {
 <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/shares/statics/js/jquery.js"></script>
-    <script src="/shares/statics/js/wind.js"></script>
-    <script src="/shares/statics/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/mayajinxin/shares/statics/js/jquery.js"></script>
+    <script src="/mayajinxin/shares/statics/js/wind.js"></script>
+    <script src="/mayajinxin/shares/statics/simpleboot/bootstrap/js/bootstrap.min.js"></script>
 <?php if(APP_DEBUG): ?><style>
 		#think_page_trace_open{
 			z-index:9999;
@@ -68,7 +68,7 @@ list-style: none;
     </ul>
   </div>
 </div>
-<script src="/shares/statics/js/common.js"></script> 
+<script src="/mayajinxin/shares/statics/js/common.js"></script> 
 <script>
 //获取官方通知
 $.getJSON("http://www.thinkcmf.com/service/sms_jsonp.php?callback=?",function(data){

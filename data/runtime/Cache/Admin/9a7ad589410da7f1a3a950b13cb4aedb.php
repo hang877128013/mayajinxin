@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>欢迎登录后台管理系统</title>
-<link href="/shares/tpl_admin/simpleboot/assets/_login/css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="/shares/tpl_admin/simpleboot/assets/_login/js/jquery.js"></script>
-<script src="/shares/tpl_admin/simpleboot/assets/_login/js/cloud.js" type="text/javascript"></script>
-<script type="text/javascript" src="/shares/tpl_admin/simpleboot/assets/_login/js/jquery.min.js"></script>
-<script type="text/javascript" src="/shares/tpl_admin/simpleboot/assets/_login/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/shares/tpl_admin/simpleboot/assets/_login/js/jquery.layout.js"></script>
+<link href="/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/js/jquery.js"></script>
+<script src="/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/js/cloud.js" type="text/javascript"></script>
+<script type="text/javascript" src="/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/js/jquery.min.js"></script>
+<script type="text/javascript" src="/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/js/jquery.layout.js"></script>
 
 <script language="javascript">
 	$(function(){
@@ -21,7 +21,7 @@
 
 </head>
 
-<body style="background-color:#1c77ac; background-image:url(/shares/tpl_admin/simpleboot/assets/_login/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
+<body style="background-color:#1c77ac; background-image:url(/mayajinxin/shares/tpl_admin/simpleboot/assets/_login/images/light.png); background-repeat:no-repeat; background-position:center top; overflow:hidden;">
 
 
 
@@ -60,14 +60,14 @@
 </body>
 <script>
 var GV = {
-	DIMAUB: "/shares/",
+	DIMAUB: "/mayajinxin/shares/",
 	JS_ROOT: "statics/js/",//js版本号
 	TOKEN : ''	//token ajax全局
 };
 </script>
-<script src="/shares/statics/js/wind.js"></script>
-<script src="/shares/statics/js/jquery.js"></script>
-<script type="text/javascript" src="/shares/statics/js/common.js"></script>
+<script src="/mayajinxin/shares/statics/js/wind.js"></script>
+<script src="/mayajinxin/shares/statics/js/jquery.js"></script>
+<script type="text/javascript" src="/mayajinxin/shares/statics/js/common.js"></script>
 <script>
 ;(function(){
 	document.getElementById('J_admin_name').focus();
