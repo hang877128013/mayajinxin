@@ -1,0 +1,9 @@
+.popup_bg{ position:absolute; z-index:1000; background-color:grey; top:0px; left:0px; width:100%; height:100%;}
+.popup{display:none;    margin: -24% -27%; position:absolute; z-index:1001; width:55%;height: 40%; background-color:#fff; border-radius:8px;}
+.popup header{padding: 12px 0 100px; height:25px; line-height:25px; text-align:center; border-bottom:1px solid #e6e6e6;}
+.popup_cont{ padding:10px 25px; line-height:24px; }
+.popup footer{ overflow:hidden; padding:5px 0 15px 0;}
+.popup a.button{ width:40px; height:40px; border-radius: 50%; line-height:40px; text-align:center; background-color:#00afba; color:#fff; padding:0; border:0; float:left; position:absolute; top:-20px; right:-20px;}
+.popup a.button#cancel{ background-color:#ff864f;}
+.popup a.button#cancel.center{ background-color:#00afba;}
+.popup a { text-decoration: none }

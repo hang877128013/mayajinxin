@@ -1,0 +1,1 @@
+a:7:{i:0;s:7:"user_id";i:1;s:6:"openid";i:2;s:8:"nickname";i:3;s:10:"headimgurl";i:4;s:14:"TransactionPwd";s:3:"_pk";s:7:"user_id";s:5:"_type";a:5:{s:7:"user_id";s:7:"int(11)";s:6:"openid";s:11:"varchar(60)";s:8:"nickname";s:11:"varchar(32)";s:10:"headimgurl";s:4:"text";s:14:"TransactionPwd";s:7:"int(11)";}}

@@ -1,0 +1,85 @@
+
+#header{
+	position: relative;
+}
+#header img{
+	position: absolute;
+	left: 3%;
+	bottom: 8%;
+}
+#record{
+	margin-top: 10px;
+	padding: 10px 38px;
+	box-shadow: 0 4px 6px #C0BBB9;
+	background: #fff;
+}
+
+#record ul li{
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #ccc;
+}
+#record ul li img{
+	vertical-align: middle;
+}
+#record ul li span:nth-of-type(2){
+	margin-left: 10px;
+}
+#record ul li span:nth-of-type(3){
+	float: right;
+}
+#record .point_down img{
+	padding: 8px 5px;
+	border-radius: 6px;
+	border: 1px solid black;
+	text-align: center;
+}
+#query .query_btn{
+	border: 1px solid #ccc;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	border-radius: 6px;
+	background: #FF4030;
+	text-align: center;
+	margin: 20px auto;
+}
+#query table, tr, th, td{
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+#query table{
+	width: 100%;
+	background: #fff;
+}
+
+#query table th, #query td{
+	height: 40px;
+	width: 75px;
+	text-align: center
+}
+/* 关于我们 */
+.about_us{
+	margin-top: 10px;
+	padding: 0 20px;
+	box-shadow: 0 1px 6px #C0BBB9;
+}
+.about_us li{
+	position: relative;
+	height: 44px;
+	line-height: 44px;
+	border-bottom: 1px solid #ccc;
+}
+.about_us li img{
+	position: absolute;
+	right: 0;
+	top: 30%;
+}
+/* 介绍 */
+.introduce p{
+	margin-top: 10px;
+	height: 238px;
+	padding: 10px 20px;
+	box-shadow: 0 1px 6px #C0BBB9;
+}

@@ -1,0 +1,83 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>返佣记录</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+	<meta name='format-detection' content='telephone=no'>
+	<link rel="stylesheet" href="/shares/tpl/simplebootx_mobile/Public/style/common.css" type="text/css">
+	<link rel="stylesheet" href="/shares/tpl/simplebootx_mobile/Public/style/agent.css" type="text/css">
+</head>
+<body>
+	<div id='header'>
+		<img src="/shares/tpl/simplebootx_mobile/Public/image/back.png">
+		<h1>返佣记录</h1>
+	</div>
+	<div id="record">
+		<ul>
+			<li><span><img src="/shares/tpl/simplebootx_mobile/Public/image/back_hired_money.png" alt=""></span><span class="back_hired_money">&nbsp;&nbsp;&nbsp;&nbsp;返佣金额：<span>23 元</span></span><span>注：以实际到账为主</span></li><li><span>日期：</span><span class="back_hired_money">2016-9-1</span><span class="point_down"><img src="/shares/tpl/simplebootx_mobile/Public/image/point_down.png"></span></li><li><span>至&nbsp;&nbsp;&nbsp;：</span><span class="back_hired_money">2016-9-25</span><span class="point_down"><img src="/shares/tpl/simplebootx_mobile/Public/image/point_down.png"></span></li>
+		</ul>
+	</div>
+	<div id="query">
+		<div class="query_btn">查询</div>
+		<table>
+			<tr>
+				<th>昵称</th>
+				<th>级别</th>
+				<th>商品</th>
+				<th>返佣</th>
+				<th>时间</th>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+			<tr>
+				<td>张楠</td>
+				<td>高级经纪人</td>
+				<td>白银</td>
+				<td>10元</td>
+				<td>2016-09-20</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

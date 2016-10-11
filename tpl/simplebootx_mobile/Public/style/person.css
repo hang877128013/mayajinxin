@@ -1,0 +1,83 @@
+#info_list .use_property{
+	height: 57px;
+	line-height: 57px;
+	text-align: center;
+	box-shadow: 0 4px 6px #C0BBB9;
+	margin-bottom: 8px;
+}
+.use_property p{
+	display: inline-block;
+	margin: 0 33px;
+}
+.use_property .hr{
+	display: inline-block;
+	margin: 0;
+	width: 1px;
+	height: 16px;
+	vertical-align: middle;
+}
+/* #info_list ul li{
+	height: 44px;
+	line-height: 44px;
+	overflow: hidden;
+	background: url('../images/icon_info.gif') no-repeat;
+	margin: 0 20px;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+} */
+#info_list ul li div{
+	height: 38px;
+	line-height: 20px;
+	margin: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+
+}
+#info_list ul li .icon, #info_list ul li .icon_agent{
+	display: inline-block;
+	margin-right: 15px;
+	width: 20px;
+	height: 20px;
+}
+#info_list ul li .icon{
+	background: url('../image/icon_personal.gif') no-repeat;
+}
+#info_list ul li .icon_agent{
+	background: url('../image/icon_agent.gif') no-repeat;
+}
+#info_list ul li span {
+    vertical-align: middle;
+}
+#info_list ul li img{
+	float: right;
+}
+#info_list ul li .trade{
+	background-position: 0 0;
+}
+#info_list ul li .entry_out_money{
+	background-position: 0 -20px;
+}
+#info_list ul li .trade_pwd{
+	background-position: 0 -40px;
+}
+#info_list ul li .check_phone{
+	background-position: 0 -60px;
+}
+#info_list ul li .about{
+	background-position: 0 -80px;
+}
+/* 经纪人 */
+
+
+.agent_name, .rank, .agent_phone{
+	line-height: 22px;
+}
+.agent_name, .rank{
+	margin-left: 15px;
+}
+.agent_phone{
+	margin: 10px 0 10px 15px;
+}
+.my_income{
+	color: red;
+} 

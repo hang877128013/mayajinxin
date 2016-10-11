@@ -1,0 +1,42 @@
+#main div {
+	position: relative;
+	height: 194px;
+	padding: 0 37px 20px;
+	box-shadow: 0 1px 8px #BBB6B5;
+}
+#main div p:last-child{
+	position: absolute;
+	bottom: 37px;
+	right: 37px;
+	width: 78px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	background: #FF4030;
+	color: #fff;
+}
+input {
+	border: none;
+}
+div p:first-child{
+	padding: 37px 0;
+	text-align: center;
+}
+#main div input{
+	width:100%;
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #9A9690;
+}
+.submit {
+	display: block;
+	margin: 0 auto;
+	margin-top: 100px;
+	width:80%;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #9A9690;
+	border-radius: 6px;
+}

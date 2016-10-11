@@ -1,0 +1,149 @@
+/* logo 头像信息 */
+#container .logo_info {
+	/* position: relative; */
+	padding: 10px;
+	box-shadow: 0 4px 6px #C0BBB9;
+	/* z-index: -1; */
+} 
+.head_logo {
+	float: left;
+}
+.head_logo {
+	margin-right: 8px;
+}
+.head_logo img {
+	display: block;
+	border-radius: 6px;	
+}
+.logo_info_top {
+	margin: 8px 0 16px;
+}
+
+span.member {
+    display: flex;
+    margin: 5px 0;
+}
+
+.logo_info_top span:first-child{
+	font-size: 1.3rem;
+}
+.logo_info_top .level, .logo_info_top .money {
+	font-size: 1rem;
+}
+.logo_info_top span.name{
+	font-size: 1.5rem;
+}
+/*  充值金额 */
+.charge_money {
+	height: 180px;
+	margin: 16px 0 10px;
+	background: #fff;
+	box-shadow: 0 4px 6px #C0BBB9;
+	padding: 8px 0;
+}
+.charge_money p:first-child{
+	margin-left: 20px;
+}
+
+.charge_money table{
+	 margin: 0 auto;
+}
+.charge_money table td{
+	border: 1px solid black;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	border-radius: 6px;
+}
+.charge_way{
+	margin-top: 10px;
+	height: 11%;	
+	margin-bottom: 10%;
+	position: relative;
+	padding: 0 5%;
+}
+.charge_way div{
+	box-shadow: 0 4px 6px #C0BBB9;
+	padding: 0 5%;
+}
+.charge_way p{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #eee;
+
+}
+.charge_way p img{
+	vertical-align: middle;
+	margin-right: 5%
+}
+.charge_way .pay_btn{
+	margin-left: 65%;
+	height: 22px;
+	width: 22px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.charge_way .pay{
+	border: none;
+
+}
+#container input:last-of-type{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin:  0 9%;
+	border: none;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+.charge_way .pay_wait{
+	position: absolute;
+	top: 24%;
+	right: 46%;
+}
+.get_money {
+	margin-top: 15px;
+	
+}
+#container .get_money input{
+	width: 170px;
+	margin: 0;
+	border: none;
+}
+.get_money p:nth-of-type(1){
+	box-shadow: 0 4px 6px #C0BBB9;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 5%;
+}
+.get_money p:nth-of-type(2){
+	height: 40px;
+	line-height: 40px;
+	padding: 0 5%;
+}
+p.phone {
+    margin: 0 5%;
+}
+.check{
+	box-shadow: 0 4px 6px #C0BBB9;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5%;
+    margin-bottom: 65px;
+}
+.check span{
+	display: inline-block
+}
+span.check_code {
+    margin-left: 40px;
+    width: 75px;
+    height: 34px;
+    border-radius: 6px;
+    background: red;
+    line-height: 34px;
+    text-align: center;
+    border: 1px solid #ccc;
+}

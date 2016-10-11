@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微交易</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+	<meta name='format-detection' content='telephone=no'>
+	<tc_include file="Public/meta3"/>
+	<style>
+		#head{width:70px;height:70px;}
+	</style>
+</head>
+<body>
+<div id='header'>
+	<h1>微交易</h1>
+</div>
+<div id="container">
+	<div class="logo_info clear_fix">
+		<div class="head_logo"><img id="head" src="{$userInfo["headimgurl"]}" alt="个人头像"></div>
+
+		<div class="logo_info_top">
+			<span>{$userInfo["nickname"]}</span>
+			<span class="member">
+						<!--会员等级:<span class="level">白银</span><img src="__PUBLIC__/image/star.png" alt=""><img src="__PUBLIC__/image/star.png" alt="">-->
+					</span>
+			<span class="property">资产:<span class="money">{$userInfo['money']}元</span></span>
+		</div>
+		<div class="logo_info_btn">
+			<a href="{:U('Index/recharge')}"><div>充值</div></a>
+			<a href="{:U('Index/withdrawals')}"><div>提现</div></a>
+			<a href="{$url}"><div>一键登录</div></a>
+		</div>
+
+	</div>
+	<div class="main">
+		<div class="main_info">
+			<div class="gold_info">
+				<span>黄 金 </span>
+				<span>4423 </span>
+				<img src="__PUBLIC__/image/arrow_active.png" alt="">
+			</div>
+			<div class="sliver_info">
+				<span>白 银 </span>
+				<span>3422 </span>
+				<img src="__PUBLIC__/image/arrow_default.png" alt="">
+			</div>
+		</div>
+		<div class="diagram">
+			<div class="diagram_info">曲线图</div>
+			<div class="today_trend">
+				<ul>
+					<li class="active">今日走势</li>
+					<li>1M</li>
+					<li>5M</li>
+					<li>15M</li>
+					<li>60M</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="up_down">
+			<span class="up">
+				<img src="__PUBLIC__/image/up.png" alt="">
+			</span>
+		<span class="down">
+				<img src="__PUBLIC__/image/down.png" alt="">
+			</span>
+		<p>注意：交易时间为周一~周五08:00-次日04：00，每日04：00-07：00休市结算!</p>
+	</div>
+	<div class="hr"></div>
+	<ul class="ul">
+		<li class="trade"><a href="{:U('Index/index')}"><img src="__PUBLIC__/image/trade.png" alt=""><p>微交易</p></a></li><li class="agent"><a href="{:U('Index/agent')}"><img src="__PUBLIC__/image/agent.png" alt=""><p>经纪人</p></a></li><li class="personal"><a href="{:U('Index/mycenter')}"><img src="__PUBLIC__/image/personal.png" alt=""><p>个人中心</p></a></li>
+	</ul>
+</div>
+</body>
+</html>

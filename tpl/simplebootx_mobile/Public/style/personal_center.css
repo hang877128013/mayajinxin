@@ -1,0 +1,30 @@
+#deal_info div{
+	padding: 20px 10px;
+    box-shadow: 0 4px 6px #C0BBB9;
+    margin: 10px 0;
+    background: #fff;
+}
+#deal_info table, tr, td{
+	border: none;
+}
+#deal_info tr{
+	height: 25px;
+}
+#deal_info h3{
+	margin-left: -4px;
+}
+#deal_info div tr:last-child span:first-child{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: red;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin-right: 10px;
+}
+#deal_info div tr td:nth-of-type(2){
+	padding-left: 35px
+}

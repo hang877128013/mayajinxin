@@ -1,0 +1,39 @@
+#out_in_money_record {
+	margin-top: 10px;
+	/* box-shadow: 0 0px 10px #000 */
+}
+#out_in_money_record li{
+	height: 70px;
+	margin:0 20px; 
+	padding-top: 6px;
+	border-bottom: 1px solid #ccc;
+}
+#out_in_money_record li img{
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+#out_in_money_record li p{
+	margin: 9px 0;
+}
+#out_in_money_record li p:nth-of-type(1) span:nth-of-type(3),
+#out_in_money_record li p:nth-of-type(2) span:nth-of-type(3),
+#out_in_money_record li p:nth-of-type(2) span:nth-of-type(4)
+{
+	float: right;
+}
+#out_in_money_record li p:nth-of-type(2) span:nth-of-type(4){
+	margin-right: 10px;
+}
+
+#out_in_money_record li p:nth-of-type(2) span:nth-of-type(1){
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background: blue;
+	border: 1px solid #000;
+	border-radius: 6px;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 8px;
+}
