@@ -6,9 +6,9 @@
 session_start();
 error_reporting(0);
 
-$base_url = 'http://yixin.woyii.com/';
-$appid = 'wx9a68aff48ed92184';
-$secret = '6c63227dbed3f62cfe52846cf0817207';
+$base_url = 'http://www.exhuali.com/';
+$appid = 'wx712573ae3b4d87a4';
+$secret = '02d49bad8ecb0131b6568648fd977439';
 
 //当用户登录存在，则不获取信息
 if ($_SESSION['openid']) {
@@ -82,9 +82,10 @@ if ($_REQUEST['state']) {
         header("Location: index.php?g=Portal&m=Index&a=register&id=".$regid);
         exit;
     }
-    
-    
-    header("Location: index.php?g=Portal&m=Index&a=register&id=".$regid); //以前id为4一元创业页面，现在8为企业介绍
+
+    $sid=$_REQUEST['state'];
+    $_SESSION['user']['id']=$sid;
+    header("Location: index.php?g=Portal&m=People&a=fx&id=".$sid);
     exit;
 }
 //更新用户信息
